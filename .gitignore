@@ -1,0 +1,16 @@
+# Credenciales y configuracion local (NUNCA subir)
+.env
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Logs y archivos locales
+logs/
+*.log
+.vscode/
+.idea/
