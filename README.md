@@ -1,6 +1,6 @@
 # SolarDB Pascual - Consulta Bases de Datos I
 
-**Autor:** Camilo Velasquez Botero
+**Autores:** Camilo Velasquez Botero y Deivy Estiben Gomez Rivera
 **Curso:** Bases de Datos I (SD1006) - Grupo 811 - Semestre 2026-II
 **Institucion:** Institucion Universitaria Pascual Bravo
 **Docente:** Ramiro Grisales Montoya
@@ -14,7 +14,7 @@ Incluye una practica guiada: un simulador IoT genera mensajes JSON de dos dispos
 a una tabla de staging (`stg_lectura_raw`, JSONB) y de alli pasan a una tabla relacional (`lectura_demo`)
 con una carga idempotente (`INSERT ... ON CONFLICT DO NOTHING`), bitacora (`etl_log`) y roles de minimo privilegio.
 
-El informe completo esta en `docs/Camilo_Velasquez_Botero_Consulta_BD1_G811.pdf`.
+El informe completo esta en `docs/Camilo_Velasquez_Botero_Deivy_Estiben_Gomez_Rivera_Consulta_BD1_G811.pdf`.
 
 ## Estructura
 
@@ -99,7 +99,8 @@ schtasks /Create /SC HOURLY /TN "SolarDB_ETL" /TR "cmd /c cd /d C:\ruta\solardb-
 
 | Integrante | Contribucion |
 | --- | --- |
-| Camilo Velasquez Botero | Todo el trabajo: consulta (Parte A), practica ETL (Parte B), repositorio y documentacion (Parte C) |
+| Deivy Estiben Gomez Rivera | Configuracion base (.gitignore, variables de entorno), tablas y carga idempotente, consultas JSONB |
+| Camilo Velasquez Botero | Simulador IoT, script ETL, roles de minimo privilegio, README, informe PDF y capturas |
 
 ## Seguridad
 
